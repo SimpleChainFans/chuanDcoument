@@ -186,6 +186,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.8" data-path="7_interface/">
+            
+                <a href="7_interface/">
+            
+                    
+                    跨域联邦计算中发起任务请求
+            
+                </a>
+            
+
+            
+        </li>
+    
 
     
 
@@ -231,7 +244,13 @@
     
                                 <section class="normal markdown-section">
                                 
-                                
+                                <h2 id="&#x6C1A;&#x5E73;&#x53F0;&#xFF08;&#x4EF7;&#x503C;&#x4E92;&#x8054;&#x7F51;&#x6838;&#x5FC3;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF09;"><a name="&#x6C1A;&#x5E73;&#x53F0;&#xFF08;&#x4EF7;&#x503C;&#x4E92;&#x8054;&#x7F51;&#x6838;&#x5FC3;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF09;" class="plugin-anchor" href="#&#x6C1A;&#x5E73;&#x53F0;&#xFF08;&#x4EF7;&#x503C;&#x4E92;&#x8054;&#x7F51;&#x6838;&#x5FC3;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6C1A;&#x5E73;&#x53F0;&#xFF08;&#x4EF7;&#x503C;&#x4E92;&#x8054;&#x7F51;&#x6838;&#x5FC3;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF09;</h2>
+<p>&#x201C;&#x6C1A;Tritium&#x5E73;&#x53F0;&#x201D;&#x662F;&#x6570;&#x79E6;&#x79D1;&#x6280;&#x7ED3;&#x5408;&#x5927;&#x6570;&#x636E;&#x4E0E;&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x5F00;&#x53D1;&#x7684;&#x65B0;&#x4E00;&#x4EE3;&#x4F01;&#x4E1A;&#x7EA7;&#x4EA7;&#x54C1;&#xFF0C;&#x662F;&#x4EF7;&#x503C;&#x4E92;&#x8054;&#x7F51;&#x6838;&#x5FC3;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF0C;&#x5E94;&#x7528;&#x201C;&#x6DF7;&#x5408;&#x4E91;+&#x6DF7;&#x5408;&#x94FE;&#x201D;&#x6280;&#x672F;&#x5168;&#x9762;&#x8D4B;&#x80FD;&#x65B0;&#x6570;&#x5B57;&#x7ECF;&#x6D4E;&#x5EFA;&#x8BBE;&#xFF0C;&#x5B9E;&#x73B0;&#x5BF9;&#x653F;&#x52A1;&#x516C;&#x5171;&#x6570;&#x636E;&#x6E90;&#x3001;&#x79C1;&#x57DF;&#x6570;&#x636E;&#x6E90;&#x3001;&#x4E1A;&#x52A1;&#x6D41;&#x7A0B;&#x6570;&#x636E;&#x6E90;&#x7684;&#x8FDE;&#x63A5;&#x3001;&#x53EF;&#x4FE1;&#x5B89;&#x5168;&#x8BA1;&#x7B97;&#x80FD;&#x529B;&#x4E0E;&#x6570;&#x636E;&#x5206;&#x6790;&#x51B3;&#x7B56;&#x80FD;&#x529B;&#xFF0C;&#x5E76;&#x5BF9;&#x5546;&#x7528;&#x573A;&#x666F;&#x63D0;&#x4F9B;&#x533A;&#x5757;&#x94FE;&#x5FEB;&#x901F;&#x90E8;&#x7F72;&#x3001;&#x8FD0;&#x7EF4;&#x3001;&#x5E94;&#x7528;&#x5F00;&#x53D1;&#x4E0E;&#x63A5;&#x5165;&#x8FD0;&#x884C;&#x7684;&#x57FA;&#x7840;&#x5E73;&#x53F0;&#x3002;</p>
+<p><img src="1.jpg" alt=""></p>
+<p>&#x6C1A;&#x5E73;&#x53F0;&#x57FA;&#x4E8E;&#x72EC;&#x521B;&#x7684;&#x201C;&#x6DF7;&#x548C;&#x4E91;+&#x6DF7;&#x548C;&#x94FE;&#x201D;&#x6838;&#x5FC3;&#x8BBE;&#x8BA1;&#x7406;&#x5FF5;&#xFF0C;&#x65E8;&#x5728;&#x6253;&#x9020;&#x4E00;&#x4E2A;&#x5177;&#x6709;&#x88C2;&#x53D8;&#x80FD;&#x529B;&#x7684;&#x8D4B;&#x80FD;&#x578B;&#x6570;&#x5B57;&#x7ECF;&#x6D4E;&#x57FA;&#x7840;&#x8BBE;&#x65BD;&#xFF0C;&#x901A;&#x8FC7;&#x5177;&#x6709;&#x4E00;&#x7AD9;&#x5F0F;&#x7BA1;&#x7406;&#x529F;&#x80FD;&#x7684;&#x878D;&#x5408;&#x4E91;&#x57FA;&#x7840;&#x8BBE;&#x65BD;&#xFF0C;&#x5B9E;&#x73B0;&#x591A;&#x7C7B;&#x578B;&#x533A;&#x5757;&#x94FE;&#x7684;&#x8DE8;&#x94FE;&#x517C;&#x5BB9;&#x3002;</p>
+<p>&#x5E73;&#x53F0;&#x4F9D;&#x6258;&#x533A;&#x5757;&#x94FE;&#x5B9E;&#x73B0;&#x6570;&#x636E;&#x786E;&#x6743;&#xFF0C;&#x5B9E;&#x73B0;&#x6570;&#x636E;&#x8D44;&#x6E90;&#x5316;&#x3001;&#x8D44;&#x4EA7;&#x5316;&#xFF0C;&#x5E76;&#x901A;&#x8FC7;&#x53EF;&#x7528;&#x4E0D;&#x53EF;&#x89C1;&#x7684;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#x8DE8;&#x57DF;&#x6570;&#x636E;&#x7684;&#x53EF;&#x4FE1;&#x5B89;&#x5168;&#x591A;&#x65B9;&#x8C03;&#x7528;&#xFF0C;&#x7ED3;&#x6210;&#x8DE8;&#x57DF;&#x6570;&#x636E;&#x6D41;&#x901A;&#x7684;&#x8D4B;&#x80FD;&#x7F51;&#x7EDC;&#xFF0C;&#x4ECE;&#x800C;&#x9A71;&#x52A8;&#x5168;&#x94FE;&#x7F51;&#x7684;&#x6570;&#x5B57;&#x5316;&#x751F;&#x4EA7;&#x8981;&#x7D20;&#x7684;&#x6D41;&#x901A;&#x4E0E;&#x5FAA;&#x73AF;&#xFF0C;&#x52A9;&#x529B;&#x5404;&#x79CD;&#x5E94;&#x7528;&#x573A;&#x666F;&#x7684;&#x95ED;&#x73AF;&#x3002;</p>
+<p>&#x201C;&#x6C1A;&#x5E73;&#x53F0;&#x201D;&#x4F5C;&#x4E3A;&#x6570;&#x79E6;&#x79D1;&#x6280;&#x6838;&#x5FC3;&#x6280;&#x672F;&#x4E0E;&#x5E73;&#x53F0;&#x5316;&#x4EA7;&#x54C1;&#x80FD;&#x529B;&#x7684;&#x96C6;&#x4E2D;&#x4F53;&#x73B0;&#xFF0C;&#x4FC3;&#x8FDB;&#x53F8;&#x6CD5;&#x89C4;&#x5219;&#x7F51;&#x7EDC;&#x3001;&#x91D1;&#x878D;&#x8D44;&#x6E90;&#x7F51;&#x7EDC;&#x3001;&#x6570;&#x636E;&#x8D44;&#x6E90;&#x7F51;&#x7EDC;&#x4E09;&#x7F51;&#x9AD8;&#x5BC6;&#x5EA6;&#x7684;&#x8DE8;&#x57DF;&#x878D;&#x5408;&#x805A;&#x53D8;&#x4E0E;&#x751F;&#x6001;&#x88C2;&#x53D8;&#x3002;</p>
+
                                 
                                 </section>
                             
@@ -270,7 +289,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"快速创建联盟链","level":"1.2","depth":1,"path":"1_quickCreat/README.md","ref":"1_quickCreat/README.md","articles":[]},"dir":"neutral"},"config":{"plugins":["-lunr","-search","search-pro","language-picker","anchors"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search-pro":{},"language-picker":{"grid-columns":3},"anchors":{},"livereload":{},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Simplechain Documentation","language":"zh","gitbook":"*"},"file":{"path":"README.md","mtime":"2020-10-13T08:12:01.863Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-10-13T11:59:33.727Z"},"basePath":".","book":{"language":"zh"}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"快速创建联盟链","level":"1.2","depth":1,"path":"1_quickCreat/README.md","ref":"1_quickCreat/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","language-picker","anchors"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search-pro":{},"language-picker":{"grid-columns":3},"anchors":{},"livereload":{},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Simplechain Documentation","language":"zh","gitbook":"*"},"file":{"path":"README.md","mtime":"2020-12-07T03:17:01.281Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-12-07T02:55:13.110Z"},"basePath":".","book":{"language":"zh"}});
         });
     </script>
 </div>
